@@ -1,0 +1,144 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+#wrap{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 50px 250px 50px 1fr;
+
+}
+
+#header{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+#logo{
+    text-align: center;
+    align-content: center;
+    font-size: 5em;
+    letter-spacing: -0.2em;
+    font-weight: 550;
+}
+
+.logofont:nth-child(1){
+color:#4285F4;
+}
+.logofont:nth-child(2){
+color:#EA4335;
+}
+.logofont:nth-child(3){
+color:#FBBC05;
+}
+.logofont:nth-child(4){
+color:#4285F4;
+}
+.logofont:nth-child(5){
+color:#34A853;
+}
+.logofont:nth-child(6){
+color:#EA4335;
+}
+
+
+#search{
+    justify-self: center;
+}
+
+
+#bar{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 45vW;
+    height: 45px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 1px lightgray;
+}
+
+#bar1{
+    width: 5vw;
+    text-align: center;
+    align-self: center;
+}
+
+#input{
+    border: 0px solid black;
+    width: 35vW;
+    height: 100%;
+    outline: none
+}
+
+
+#bar3{
+    width: 5vw;
+    text-align: end;
+    align-self: center;
+}
+
+#bar4{
+    width: 5vw;
+    text-align: center;
+    align-self: center;
+}
+
+
+.link{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    border: none;
+    height: 100px;
+    width: 100px;
+    background-color: none;
+    cursor: pointer;
+}
+
+#s-logo{
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    background-color: #E1E3E1;
+}
+
+#s-logo > img{
+    margin: 10px 10px 10px 10px;
+}
+
+#net img{
+    margin-left: 15px;
+}
+
+#s-name{
+    justify-self: center;
+}
+
+#icon{
+    display: flex;
+    width: 100vW;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#open{
+    border: 1px solid lightgray;
+    background-color: #F8FAFD;
+    display: none;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 30px;
+    border-radius: 30px;
+
+}
